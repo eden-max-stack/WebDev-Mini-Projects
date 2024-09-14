@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 100%; /* Ensure all cards take up the full height of the column */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    width: 100px;
+    object-fit: contain; /* Ensure the image fits within the specified height while maintaining aspect ratio */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensure the card body takes up the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spread out content within the card body */
+}
+
+.btn-primary {
+    margin-top: auto; /* Push the "Buy Now" button to the bottom */
+}
